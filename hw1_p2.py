@@ -1,0 +1,9 @@
+f=float(input("Input the force:"))
+m1=float(input("Input the mass of m1:"))
+r=float(input("Input the distance:"))
+g=6.67*10**-11
+m2=((f*r*r)/g)/m1
+print("The mass of m2 =",m2)
+c=299792458
+e=m2*c*c
+print("The energy of m2 =",e)
